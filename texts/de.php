@@ -1,6 +1,14 @@
 <?php
 
 $texts = [
+    'project.link'                                          => 'Project auf GitHub',
+    'project.log_in'                                        => 'Let me in',
+
+    'error.not.installed.title'                             => 'Not installed',
+    'error.not.installed.description'                       => 'It looks like OpCache is not installed.',
+    'error.not.enabled.title'                               => 'Not enabled',
+    'error.not.enabled.description'                         => 'It looks like OpCache is not enabled.',
+
     'menu.status'                                           => 'Status',
     'menu.config'                                           => 'Konfiguration',
     'menu.scripts'                                          => 'Dateien im Cache',
@@ -94,6 +102,7 @@ $texts = [
     'blacklist.empty'                                       => 'Es befindet sich keine Datei auf der Negativliste.',
 
     'scripts.title'                                         => 'Dateien im Cache',
+    'scripts.overview.title'                                => 'Überblick',
     'scripts.empty'                                         => 'Es befindet sich keine Datei im Cache.',
     'scripts.directory.script_count'                        => ' (<i class="count">%s</i> Dateien)',
     'scripts.full_path'                                     => 'Dateiname',
@@ -103,6 +112,7 @@ $texts = [
     'scripts.timestamp'                                     => 'Erstellt',
     'scripts.actions'                                       => 'Aktionen',
     'script.invalidate'                                     => 'Aus dem Cache löschen',
+    'scripts.filter.placeholder'                            => 'Filter Datei im Cache',
 
     'graph.title'                                           => 'Diagramme',
     'graph.memory.title'                                    => 'Speicher',
